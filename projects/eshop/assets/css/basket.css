@@ -1,0 +1,159 @@
+/* Basket */
+/*
+
+  border: 1px solid black;
+  
+*/
+.pillar {
+  text-align: left;
+}
+.pillar h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.pillar h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.pillar p {
+  margin: 0;
+  margin-top: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.pillar span {
+  margin: 0;
+  text-transform: uppercase;
+  color: gray;
+  float: right;
+}
+span.total {
+  color: gray;
+  text-decoration: underline;
+  color: rgb(180, 0, 0);
+}
+.pillar input {
+  margin: 0;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 16px;
+  height: 24px;
+  width: 156px;
+  outline: none;
+}
+.pillar select {
+  margin: 0;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 16px;
+  height: 24px;
+  width: 156px;
+  outline: none;
+}
+.pillar input[type=submit] {
+  margin: 0;
+  padding: 2px;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border-radius: 32px;
+  height: 40px;
+  width: 256px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.pillar input[type=submit]:hover {
+  background-color: gray;
+  color: white;
+  border: 2px solid gray;
+}
+.pricebox {
+  padding: 0;
+  height: 128px;
+  overflow-x: none;
+  overflow-y: scroll;
+  border-bottom: 3px solid black;
+}
+a.redline {
+  color: rgb(180, 0, 0);
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
+a.redline:hover {
+  color: rgb(220, 0, 0);
+}
+a.close {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+a.close:hover {
+  color: red;
+}
+a.option {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+a.option:hover {
+  color: gray;
+}
+a.price {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+a.price:hover {
+  color: gray;
+}
+p.price {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.pillar img {
+	
+}
+.pillar ul {
+	
+}
+.pillar li {
+	
+}
+@media screen and (max-width: 900px) {
+  .pillar span {
+	font-size: 8px;
+  }
+  p.price {
+	font-size: 8px;
+  }
+  p.zoomin {
+	font-size: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pillar input {
+	width: 100%
+  }
+  .pillar input[type=submit] {
+	width: 100%
+  }
+  .pillar select {
+	width: 100%
+  }
+}
