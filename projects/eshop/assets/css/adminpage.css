@@ -1,0 +1,47 @@
+/* Admin Page */
+/*
+
+  border: 1px solid black;
+
+*/
+.content {
+	overflow: hidden;
+	margin-left: 256px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: gray;
+}
+.row {
+/*
+  border: 1px solid black;
+  border-radius: 20px 0 0 20px;
+*/
+	height: 742px;
+	margin-bottom: 100px;
+	z-index: 1;
+	position: relative;
+	padding: 16px;
+	overflow: hidden;
+	overflow-x: none;
+	overflow-y: scroll;
+}
+.row h2 {
+	margin: 0;
+	padding-left: 16px;
+	border-radius: 20px 0 0 20px;
+	background-color: gray;
+	color: white;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+.content {
+	margin-left: 52px;
+}
+}
