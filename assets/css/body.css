@@ -1,7 +1,8 @@
 body {
 	font-family: "Juventus Fans Bold";
 	background-image: url("../img/bg.png");
-	background-position: cover;
+	background-size: contain, cover;
+	background-repeat: no-repeat;
 }
 
 /* Hover efekti için kart stilleri */
